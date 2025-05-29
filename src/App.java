@@ -8,6 +8,8 @@ public class App {
             return "ITClinical";
         } else if (i % 3 == 0) {
             return "IT";
+        } else if (i % 5 == 0) {
+            return "Clinical";
         }
         else {
             return String.valueOf(i);
