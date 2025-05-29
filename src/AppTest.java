@@ -23,4 +23,11 @@ public class AppTest {
       assertEquals("Clinical", app.returnString(5));
       assertEquals("Clinical", app.returnString(10));
     }
+
+     @Test
+     public void testReturnString_NotMultipleof3or5() {
+      App app = new App();
+      assertEquals("1", app.returnString(1));
+      assertEquals("7", app.returnString(7));
+     }
 }
