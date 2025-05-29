@@ -16,4 +16,11 @@ public class AppTest {
       assertEquals("IT", app.returnString(3));
       assertEquals("IT", app.returnString(9));
     }
+
+    @Test
+    public void testReturnString_MultipleOf5() {
+      App app = new App();
+      assertEquals("Clinical", app.returnString(5));
+      assertEquals("Clinical", app.returnString(10));
+    }
 }
