@@ -1,6 +1,8 @@
 public class App {
     public static void main() {
-        
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(returnString(i));
+        }
     }
 
     public static String returnString(int i) {
