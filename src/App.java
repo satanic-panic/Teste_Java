@@ -3,5 +3,8 @@ public class App {
         
     }
 
+    public static String returnString(int i) {
+        return String.valueOf(i);
+    }
 
 }
